@@ -1,5 +1,8 @@
 * {
     box-sizing: border-box;
+    border: red; /* otazka 10 */
+    margin-top: 10px; /* otazka 9 */
+    margin-bottom: 10px; /* otazka 9 */
 }
 
 /* Style the body */
@@ -24,8 +27,9 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: sticky;
+  position: absolute; /* otazka 6 */
   top: 0;
+  right: 0px; /* otazka 7 */
 }
 
 /* Style the navigation bar links */
@@ -41,6 +45,7 @@ body {
 /* Right-aligned link */
 .navbar a.right {
   float: right;
+  left: 0px; /* otazka 7 */
 }
 
 /* Change color on hover */
@@ -63,7 +68,7 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 30%;
+  flex: 25%; /* otazka 8 */
   background-color: darkblue; /* otazka 4 */
   padding: 20px;
   color: lightgray; /* otazka 4 */
@@ -71,7 +76,7 @@ body {
 
 /* Main column */
 .main {   
-  flex: 70%;
+  flex: 75%; /* otazka 8 */
   background-color: white;
   padding: 20px;
 }
