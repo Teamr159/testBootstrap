@@ -11,13 +11,13 @@ body {
 /* Header/logo Title */
 .header {
   padding: 110px;
-  text-align: center;
+  text-align: right; /* otazka 2 */
   background-image: url("./images/landscape.jpg");
 }
 
 /* Increase the font size of the heading */
 .header h1 {
-  font-size: 50px;
+  font-size: 60px; /* otazka 1 */
 }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
@@ -64,8 +64,9 @@ body {
 /* Sidebar/left column */
 .side {
   flex: 30%;
-  background-color: #f1f1f1;
+  background-color: darkblue; /* otazka 4 */
   padding: 20px;
+  color: lightgray; /* otazka 4 */
 }
 
 /* Main column */
@@ -78,6 +79,8 @@ body {
 /* Footer */
 .footer {
   padding: 20px;
+  padding-top: 5000em; /* otazka 5 */
+  padding-bottom: 5000em; /* otazka 5 */
   background: #474747;
 }
 
@@ -85,7 +88,7 @@ body {
 .footer p {
   text-align: center;
   font-size: 14px;
-  color: #d8d8d8;
+  color: green; /* otazka 3 */
 }
 
 /* Basic styles for the post */
